@@ -1,0 +1,16 @@
+mkdir drawable-xxxhdpi; mkdir drawable-xxhdpi; mkdir drawable-xhdpi; mkdir drawable-hdpi; mkdir drawable-mdpi
+for file in $(find . -type f -iname '*@4x*'); do
+  mv "$file" "drawable-xxxhdpi/${file/@4x/}"
+done
+for file in $(find . -type f -iname '*@3x*'); do
+  mv "$file" "drawable-xxhdpi/${file/@3x/}"
+done
+for file in $(find . -type f -iname '*@2x*'); do
+  mv "$file" "drawable-xhdpi/${file/@2x/}"
+done
+for file in $(find . -type f -iname '*@1.5x*'); do
+  mv "$file" "drawable-hdpi/${file/@1.5x/}"
+done
+for file in $(find . -type f -iname '*@1x*'); do
+  mv "$file" "drawable-mdpi/${file/@1x/}"
+done
