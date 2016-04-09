@@ -3,13 +3,13 @@ This shell script is for arranging exported assets from sketchapp for Android De
 
 # How to use
 > Export asset from SketchApp
-![exporting_from_sketch.jpg]()
+<img src = "https://raw.githubusercontent.com/Chingiz/exfsa/master/exporting_from_sketch.png">
 
 > After exporting
-![after_exporting.jpg]()
+<img src = "https://raw.githubusercontent.com/Chingiz/exfsa/master/after_exporting.png">
 
 > Run
-![after_exporting.jpg]()
+<img src = "https://raw.githubusercontent.com/Chingiz/exfsa/master/run.png">
 
 > Done
-![and_done.jpg]()
+<img src = "https://raw.githubusercontent.com/Chingiz/exfsa/master/done.png">
