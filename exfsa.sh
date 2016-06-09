@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir drawable-xxxhdpi; mkdir drawable-xxhdpi; mkdir drawable-xhdpi; mkdir drawable-hdpi; mkdir drawable-mdpi
 for file in $(find . -type f -iname '*@4x*'); do
   mv "$file" "drawable-xxxhdpi/${file/@4x/}"
