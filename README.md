@@ -5,7 +5,7 @@ This shell script is for arranging exported assets from sketchapp for Android De
 
 ```
 $ cd exfsa
-$ cd sudo cp exfsa /usr/bin
+$ sudo cp exfsa /usr/bin
 ```
 
 # How to use
