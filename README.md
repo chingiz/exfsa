@@ -11,6 +11,10 @@ $ git clone git@github.com:Chingiz/exfsa.git
 $ cd exfsa
 $ sudo cp exfsa /usr/bin
 ```
+# About
+This is for developing an sketchapp for android development using shell script which have various functionalities like RGB color code and
+Hex code for more clear color combination.
+it also allow PNG,JPG and various other type of images .
 
 ## How to use
 
