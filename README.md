@@ -3,6 +3,8 @@ This shell script is for arranging exported assets from sketchapp for Android De
 
 # Install
 
+> This Shell Script is for Android Development Use for better Android Mobile Application Development.
+
 ```
 $ cd exfsa
 $ sudo cp exfsa /usr/bin
