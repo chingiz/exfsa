@@ -6,6 +6,8 @@ This shell script is for arranging exported assets from sketchapp for Android De
 
 The following installs the script making it system-available.
 
+> This Shell Script is for Android Development Use for better Android Mobile Application Development.
+
 ```
 $ git clone git@github.com:Chingiz/exfsa.git
 $ cd exfsa
