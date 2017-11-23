@@ -16,3 +16,5 @@ done
 for file in $(find . -type f -iname '*@1x*'); do
   mv "$file" "drawable-mdpi/${file/@1x/}"
 done
+
+#test
