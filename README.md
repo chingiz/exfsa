@@ -42,7 +42,7 @@ Export the assets to a folder. They will look like this:
 
 ### Run the `exfsa` script
 
-This will rename the assets with place them in the appropriate folders.
+This will rename the assets and place them in the appropriate folders.
 
 ```
 $ exfsa
